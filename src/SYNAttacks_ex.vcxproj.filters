@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ae314027-b893-4aa1-9001-c1ec6faacdc1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{19303b46-28eb-4f2d-944e-fb51146c370b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a7eb7f84-a300-461d-9adb-6847f8291d74}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{60aa7590-0fa9-4b34-95ce-78268632c88a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="synattacks_ex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="synpacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIpHlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="IPHlpApi.Lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="..\tools\WpdPack_4_1_2\WpdPack\Lib\x64\Packet.lib" />
+    <Library Include="..\tools\WpdPack_4_1_2\WpdPack\Lib\x64\wpcap.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tools\WpdPack_4_1_2\WpdPack\Lib\libpacket.a" />
+    <None Include="..\tools\WpdPack_4_1_2\WpdPack\Lib\libwpcap.a" />
+    <None Include="C:\Users\Administrator\Desktop\dll\Packet.dll" />
+    <None Include="C:\Users\Administrator\Desktop\dll\pthreadVC.dll" />
+    <None Include="C:\Users\Administrator\Desktop\dll\wpcap.dll" />
+  </ItemGroup>
+</Project>
